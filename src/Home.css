@@ -1,0 +1,22 @@
+.home{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230116/pngtree-takoyaki-food-photography-image_1523037.jpg');
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home .button{
+    width: 10rem;
+}
+.home h1{
+    color:white
+}
+.home h2{
+    color:white
+}

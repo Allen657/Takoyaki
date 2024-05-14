@@ -1,0 +1,11 @@
+.container.order{
+    width: 50%;
+}
+@media (width<=500px) {
+    .container.order{
+        width:80%;
+    }
+}
+.bottom{
+    margin-bottom: 1rem;
+}

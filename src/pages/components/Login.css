@@ -1,0 +1,44 @@
+.boxContainer{
+    position:absolute;
+    z-index:1;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:1rem;
+}
+.boxForm{
+    width: 30%;
+    padding:3rem 2rem;
+    padding-top: 1rem;
+}
+.boxForm button{
+    color: white;
+    padding: .5rem 5rem;
+}
+.boxForm .buttonContainer {
+    display: flex;
+    justify-content: center;
+
+}
+@media (width<=600px) {
+    .boxForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 50vh;
+        padding:12rem 2rem
+    }
+    .boxForm button{
+        width: 100%;
+    }
+    .boxContainer{
+        margin-top:0;
+    }
+}
+  
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* WebKit browsers */
+    margin: 0; /* Optional: adjust spacing */
+  }
